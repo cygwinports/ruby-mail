@@ -1,0 +1,8 @@
+inherit rubygem
+
+NAME="ruby-mail"
+VERSION=2.5.3
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby mail extension"
+DESCRIPTION="A really Ruby Mail handler."

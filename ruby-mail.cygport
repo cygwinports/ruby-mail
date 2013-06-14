@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-mail"
-VERSION=2.4.4
+VERSION=2.5.4
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby mail extension"

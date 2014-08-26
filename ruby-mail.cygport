@@ -2,7 +2,14 @@ inherit rubygem
 
 NAME="ruby-mail"
 VERSION=2.5.4
-RELEASE=1
+RELEASE=2
 CATEGORY="Ruby"
 SUMMARY="Ruby mail extension"
 DESCRIPTION="A really Ruby Mail handler."
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_mail_CONTENTS="${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_mail_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
+
